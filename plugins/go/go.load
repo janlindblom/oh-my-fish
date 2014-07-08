@@ -1,0 +1,8 @@
+if test -n "$GOROOT"
+  _append_path $GOROOT/bin
+else
+  _append_path /usr/local/opt/go/bin
+  _append_path /usr/local/opt/go/libexec/bin
+end
+
+
